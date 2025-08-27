@@ -1,9 +1,11 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <img width="1872" height="891" alt="image" src="https://github.com/user-attachments/assets/a576405f-861c-4574-a901-dab84dc90b39" />
+
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+ <img width="1196" height="2048" alt="image" src="https://github.com/user-attachments/assets/54aa8076-40d2-4ee1-a038-50f477bd6dab" />
+
 </div>
 
 <br/>
