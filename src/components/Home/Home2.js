@@ -18,89 +18,104 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              I’m a <b className="purple">Full-Stack Developer</b> focused on
+              building secure, scalable web applications with{" "}
+              <b className="purple">React, Angular, and Node.js</b>.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              I enjoy turning complex product requirements into clean, reusable
+              components and reliable APIs. My recent work includes{" "}
+              <b className="purple">data-heavy dashboards</b>,{" "}
+              <b className="purple">real-time features</b> (WebSockets/SSE), and{" "}
+              <b className="purple">cloud-native services</b>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Whenever possible, I apply strong engineering practices—
+              <b className="purple"> TypeScript, testing, CI/CD,</b> and solid
+              state management—to ship features with confidence.
             </p>
+
+            {/* ---- Skills (simple, recruiter-friendly) ---- */}
+            <div className="mt-4">
+              <h3 className="purple" style={{ fontSize: "1.6em" }}>
+                Core Skills
+              </h3>
+              <ul className="skills-list">
+                <li>
+                  <b>Frontend:</b> React (Hooks, Context, Redux), Angular
+                  (RxJS, NgRx), TypeScript, HTML5, CSS/SCSS, Bootstrap/Material UI
+                </li>
+                <li>
+                  <b>Backend:</b> Node.js, Express/NestJS, REST & GraphQL, Auth
+                  (JWT/OAuth2), WebSockets/SSE
+                </li>
+                <li>
+                  <b>Data & Infra:</b> PostgreSQL, MySQL, MongoDB, Redis,
+                  Kafka/RabbitMQ, Docker/Kubernetes, AWS/Azure, CI/CD
+                </li>
+                <li>
+                  <b>Quality:</b> Jest, React Testing Library, ESLint, Prettier
+                </li>
+              </ul>
+            </div>
           </Col>
+
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <Tilt glareEnable={true} glareMaxOpacity={0.1} tiltMaxAngleX={8} tiltMaxAngleY={8}>
+              <img src={myImg} className="img-fluid" alt="Developer avatar" />
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/saipooja-git"  // ← update if different
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/"  // ← optional
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="Twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/pooja345/"  // ← update slug
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/"  // ← optional
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="Instagram"
                 >
                   <AiFillInstagram />
                 </a>
@@ -112,4 +127,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

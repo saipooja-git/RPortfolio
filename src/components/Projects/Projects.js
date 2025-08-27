@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/saipooja-git/Chatify.git"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="ToDo Application"
+              description="A full-stack Todo application built with Angular and a NoSQL database. It provides a clean and responsive UI for managing tasks, with features like add, edit, delete, and mark-as-complete. The backend integrates with NoSQL for flexible data storage and retrieval, enabling fast operations and scalability. This project demonstrates CRUD operations, Angular reactive forms, RESTful API integration, and modular component design."
+              ghLink="https://github.com/saipooja-git/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -47,9 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="School Bus Track"
+              description="A real-time School Bus Tracker system developed with JavaScript and Express.js. It allows parents and school administrators to track bus locations, monitor routes, and estimate arrival times. The system uses GPS data integration with Express.js APIs, secure data handling, and a responsive front-end interface for seamless access. Designed to improve student safety, reduce waiting times, and provide transparency in school transportation."
+              ghLink="https://github.com/saipooja-git/School-Bus-Tracker-Webpage.git"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
@@ -80,9 +80,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="ChatGPT ChatBot"
+              description="An interactive ChatGPT-powered chatbot built using JavaScript and OpenAI’s API. It enables users to have real-time conversational experiences directly from the browser, handling prompt input and streaming AI responses. The project demonstrates API integration, asynchronous JavaScript (fetch/async-await), error handling, and a responsive chat-style UI for seamless interaction."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
