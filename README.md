@@ -1,6 +1,7 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <img width="1872" height="891" alt="image" src="https://github.com/user-attachments/assets/a576405f-861c-4574-a901-dab84dc90b39" />
+  <br/>
+  <img width="1772" height="891" alt="image" src="https://github.com/user-attachments/assets/a576405f-861c-4574-a901-dab84dc90b39" />
 
 </h2>
 <div align="center">
@@ -33,7 +34,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">Saipooja</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
